@@ -115,7 +115,7 @@ uv run pdf2sheet \
   --level "control,treatment" \
   --level "pre,post" \
   --section "results:Results:1" \
-  --dpi 100 \
+  --dpi 50 \
   --excel-output ./experiments/report.xlsx
 ```
 
@@ -127,7 +127,7 @@ All options have defaults defined as constants at the top of `generate_excel.py`
 
 | Constant | CLI flag | Default |
 |---|---|---|
-| `BASE_DIR` | `--base-dir` | `./Artigo-CISTI-2026` |
+| `BASE_DIR` | `--base-dir` | `./data` |
 | `OUTPUT_DIR` | `--output-dir` | `./png_output` |
 | `EXCEL_OUTPUT` | `--excel-output` | `./output.xlsx` |
 
